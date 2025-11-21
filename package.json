@@ -1,18 +1,22 @@
 {
-  "name": "tree-sitter-python",
-  "version": "0.25.0",
-  "description": "Python grammar for tree-sitter",
-  "repository": "https://github.com/tree-sitter/tree-sitter-python",
-  "license": "MIT",
+  "name": "tree-sitter-ord",
+  "version": "0.1.0",
+  "description": "ORD grammar for tree-sitter",
+  "repository": "https://github.com/tree-sitter/tree-sitter-ord",
+  "license": "Apache-2.0",
   "author": {
-    "name": "Max Brunsfeld",
-    "email": "maxbrunsfeld@gmail.com"
+    "name": "Dominik Schwimmbeck",
+    "email": "dominik.schwimmbeck@tu-berlin.de"
   },
   "contributors": [
     {
       "name": "Amaan Qureshi",
       "email": "amaanq12@gmail.com"
-    }
+    },
+    {
+      "name": "Max Brunsfeld",
+      "email": "maxbrunsfeld@gmail.com"
+    }  
   ],
   "main": "bindings/node",
   "types": "bindings/node",
@@ -20,7 +24,8 @@
     "incremental",
     "parsing",
     "tree-sitter",
-    "python"
+    "python",
+    "ord"  
   ],
   "files": [
     "grammar.js",

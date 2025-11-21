@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 3.13)
 
-project(tree-sitter-python
-        VERSION "0.25.0"
-        DESCRIPTION "Python grammar for tree-sitter"
-        HOMEPAGE_URL "https://github.com/tree-sitter/tree-sitter-python"
+project(tree-sitter-ord
+        VERSION "0.1.0"
+        DESCRIPTION "Ord grammar for tree-sitter"
+        HOMEPAGE_URL "https://github.com/schwimmbeck/tree-sitter-ord"
         LANGUAGES C)
 
 option(BUILD_SHARED_LIBS "Build using shared libraries" ON)

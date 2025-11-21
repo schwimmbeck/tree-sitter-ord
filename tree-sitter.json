@@ -1,12 +1,12 @@
 {
   "grammars": [
     {
-      "name": "python",
-      "camelcase": "Python",
-      "scope": "source.python",
+      "name": "ord",
+      "camelcase": "Ord",
+      "scope": "source.ord",
       "path": ".",
       "file-types": [
-        "py"
+        "ord"
       ],
       "highlights": "queries/highlights.scm",
       "tags": "queries/tags.scm",
@@ -14,9 +14,9 @@
     }
   ],
   "metadata": {
-    "version": "0.25.0",
-    "license": "MIT",
-    "description": "Python grammar for tree-sitter",
+    "version": "0.1.0",
+    "license": "Apache-2.0",
+    "description": "Ord grammar for tree-sitter",
     "authors": [
       {
         "name": "Max Brunsfeld",
@@ -25,10 +25,14 @@
       {
         "name": "Amaan Qureshi",
         "email": "amaanq12@gmail.com"
+      },
+      {
+	"name": "Dominik Schwimmbeck",
+	"email": "dominik.schwimmbeck@tu-berlin.de"
       }
     ],
     "links": {
-      "repository": "https://github.com/tree-sitter/tree-sitter-python"
+      "repository": "https://github.com/schwimmbeck/tree-sitter-ord"
     }
   },
   "bindings": {
